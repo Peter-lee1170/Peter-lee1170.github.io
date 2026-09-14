@@ -13,7 +13,7 @@ Main page and experience: dist/index.html. Styling: dist/styles.css. Resume: dis
 Ask Codex to publish after editing; local changes do not automatically update the hosted site.
 
 ## Background artwork
-The hero uses assets/nano-graphene-wafer.png, generated with the built-in image tool as decorative scientific concept artwork, not experimental imagery. Prompt: A translucent single-layer hexagonal graphene sheet gently rippling over semiconductor wafer die patterns and lithographic traces, dark graphite, silver lattice, subtle copper and muted violet thin-film reflections, details at right/lower edges and dark negative space for text, no labels or neon effects.
+The user uses assets/nano-graphene-wafer.png, generated with the built-in image tool as decorative scientific concept artwork, not experimental imagery. Prompt: A translucent single-layer hexagonal graphene sheet gently rippling over semiconductor wafer die patterns and lithographic traces, dark graphite, silver lattice, subtle copper and muted violet thin-film reflections, details at right/lower edges and dark negative space for text, no labels or neon effects.
 The iOS-inspired interface uses opaque rounded surfaces, system typography, and responsive section navigation. The original project images are unchanged.
 
 ## GitHub Pages hosting
