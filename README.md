@@ -1,5 +1,8 @@
 # Peter Lee — Engineering Portfolio
 
+Live website: https://peter-lee1170.github.io/
+Repository: https://github.com/Peter-lee1170/Peter-lee1170.github.io
+
 ## Edit projects
 Open dist/projects.js. Each project has a title, category, description, optional result, roles list, methods, optional note, and images list. Each image has src, alt, and caption fields. Add photos to dist/assets/projects/ and reference them using assets/projects/filename.jpg. Duplicate or remove a project object to change the number of projects.
 
@@ -16,7 +19,7 @@ The iOS-inspired interface uses opaque rounded surfaces, system typography, and 
 ## GitHub Pages hosting
 The workflow in .github/workflows/pages.yml publishes only dist/ after a push to main or master. No npm installation, build system, paid host, or API key is required.
 
-One-time setup: create the GitHub repository, push these files, then select Settings → Pages → Source → GitHub Actions. Run Deploy portfolio to GitHub Pages from the Actions tab if necessary.
+GitHub Pages is configured with GitHub Actions. The local main branch tracks origin/main. Run the Deploy portfolio to GitHub Pages workflow manually from the Actions tab if you need to republish without changing files.
 
 For future updates, edit dist/projects.js or other files inside dist/, commit, and push. GitHub Actions publishes the changes automatically. Check the Actions tab for deployment progress and the Pages settings for the final URL.
 
