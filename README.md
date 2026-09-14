@@ -12,3 +12,12 @@ Ask Codex to publish after editing; local changes do not automatically update th
 ## Background artwork
 The hero uses assets/nano-graphene-wafer.png, generated with the built-in image tool as decorative scientific concept artwork, not experimental imagery. Prompt: A translucent single-layer hexagonal graphene sheet gently rippling over semiconductor wafer die patterns and lithographic traces, dark graphite, silver lattice, subtle copper and muted violet thin-film reflections, details at right/lower edges and dark negative space for text, no labels or neon effects.
 The iOS-inspired interface uses opaque rounded surfaces, system typography, and responsive section navigation. The original project images are unchanged.
+
+## GitHub Pages hosting
+The workflow in .github/workflows/pages.yml publishes only dist/ after a push to main or master. No npm installation, build system, paid host, or API key is required.
+
+One-time setup: create the GitHub repository, push these files, then select Settings → Pages → Source → GitHub Actions. Run Deploy portfolio to GitHub Pages from the Actions tab if necessary.
+
+For future updates, edit dist/projects.js or other files inside dist/, commit, and push. GitHub Actions publishes the changes automatically. Check the Actions tab for deployment progress and the Pages settings for the final URL.
+
+The .openai folder belongs to the previous Sites host and is not included in the GitHub Pages website.
