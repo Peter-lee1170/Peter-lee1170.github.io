@@ -102,27 +102,6 @@ window.portfolioProjects = [
     ]
   },
   {
-    "title": "Automated Mucoadhesive Assay Workflow",
-    "category": "SYSTEM DESIGN & INTEGRATION",
-    "description": "Designed and began prototyping a modular automation system for a hydrogel-based mucoadhesion assay. The proposed workflow connects synthesis, fragmentation, washing, and particle deposition to support higher-throughput testing with less variability and manual intervention.",
-    "roles": [
-      "Outlined the end-to-end workflow: hydrogel synthesis, fragmentation, particle washing, well-plate preparation, and adhesion evaluation.",
-      "Integrated a liquid handling robot for hydrogel component mixing and dispensing.",
-      "Designed a washing module with multi-solution rinse cycles to prevent cross-contamination between batches.",
-      "Planned transfer mechanisms from fragmentation to mucoadhesion plates for compatibility with downstream Cytation 5 imaging.",
-      "Proposed future automation stages for robotic plate handling, incubation, and detection."
-    ],
-    "methods": "SolidWorks · 3D printing · Liquid handling system · Custom DC motor grinder · Multi-solution washing station · Microscopy / Cytation 5 · Python for vision-based detection planning",
-    "note": "System design and initial prototyping; later automation stages were proposed rather than completed.",
-    "images": [
-      {
-        "src": "assets/projects/project-6-1.jpg",
-        "alt": "Annotated concept drawing of an automated assay gantry with grinder, washing station and well plate",
-        "caption": "Concept layout for the modular assay automation system."
-      }
-    ]
-  },
-  {
     "title": "Triboelectric Nanogenerator",
     "category": "FUNCTIONAL PROTOTYPING · MECHANICAL OPTIMIZATION",
     "description": "Designed and fabricated a triboelectric nanogenerator (TENG) to harvest mechanical energy through contact electrification. Optimized material selection and surface contact through repeated design and test cycles.",
