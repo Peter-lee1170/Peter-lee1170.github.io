@@ -17,3 +17,10 @@ for (const [i, project] of (window.portfolioProjects || []).entries()) {
  if(project.note)body.append(make('p','project-note',project.note));
  card.append(body,gallery);grid.append(card);
 }
+
+// Keep the section navigation in sync with scrolling.
+const navLinks = Array.from(document.querySelectorAll("nav a"));
+const navSections = [document.querySelector(".hero"), document.querySelector("#projects"), document.querySelector("#experience"), document.querySelector("#contact")];
+let navTicking = false;
+function updateNav(){let index=0;for(let i=0;i<navSections.length;i++){if(navSections[i].getBoundingClientRect().top <= window.innerHeight * .38) index=i;}if(window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-4)index=navSections.length-1;navLinks.forEach((link,i)=>{if(i===index)link.setAttribute("aria-current","location");else link.removeAttribute("aria-current");});navTicking=false;}
+addEventListener("scroll",()=>{if(!navTicking){navTicking=true;requestAnimationFrame(updateNav);}},{passive:true});addEventListener("resize",updateNav);updateNav();

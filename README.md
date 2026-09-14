@@ -11,4 +11,4 @@ Ask Codex to publish after editing; local changes do not automatically update th
 
 ## Background artwork
 The hero uses assets/nano-graphene-wafer.png, generated with the built-in image tool as decorative scientific concept artwork, not experimental imagery. Prompt: A translucent single-layer hexagonal graphene sheet gently rippling over semiconductor wafer die patterns and lithographic traces, dark graphite, silver lattice, subtle copper and muted violet thin-film reflections, details at right/lower edges and dark negative space for text, no labels or neon effects.
-The experience background uses a faint grayscale copy of the existing lithography micrograph through CSS; the original project image is unchanged.
+The iOS-inspired interface uses opaque rounded surfaces, system typography, and responsive section navigation. The original project images are unchanged.
