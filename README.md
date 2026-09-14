@@ -1,24 +1,10 @@
 # Peter Lee — Engineering Portfolio
 
-A one-page static portfolio with no build or installation required.
+## Edit projects
+Open dist/projects.js. Each project has a title, category, description, optional result, roles list, methods, optional note, and images list. Each image has src, alt, and caption fields. Add photos to dist/assets/projects/ and reference them using assets/projects/filename.jpg. Duplicate or remove a project object to change the number of projects.
 
-## Add projects
-1. Put project photographs or diagrams in `dist/assets/`.
-2. Open `dist/projects.js` and fill in each project's title, description, image path and imageAlt.
-3. Optional fields: category, role, methods, result, link, linkLabel. Empty fields remain hidden.
-4. Duplicate a project object to add another card, or remove one. Three empty cards are included intentionally.
-5. Ask Codex to publish the updates when ready; editing a local file does not update the live website automatically.
+The six current projects and nine images were imported from Peter_Lee_Portfolio_3B.pdf. Images display without cropping; click an image to open the full-size version. My role & technical details expands the contribution list and tools. Keep unfinished-work and confidentiality notes accurate.
 
-Example:
-```js
-{ title: "Your project title", description: "The problem, what you built, and why it matters.", image: "assets/project-photo.jpg", imageAlt: "Describe what the photograph shows", category: "PROCESS DEVELOPMENT", role: "Your contribution", methods: "Tools and experimental methods", result: "Measured result", link: "", linkLabel: "" }
-```
+Main page and experience: dist/index.html. Styling: dist/styles.css. Resume: dist/assets/Peter_Lee_Resume.pdf.
 
-Use real project photographs and diagrams. A 4:3 landscape image works well; leave space around important details because images crop to fit.
-
-## Other updates
-- Main copy, links and experience: `dist/index.html`
-- Colors, spacing and responsive layout: `dist/styles.css`
-- Resume download: replace `dist/assets/Peter_Lee_Resume.pdf`
-
-Run a local static server pointed at `dist` to preview, or open `dist/index.html` directly. The page needs no external fonts or scripts.
+Ask Codex to publish after editing; local changes do not automatically update the hosted site.
